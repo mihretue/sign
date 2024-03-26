@@ -1,0 +1,81 @@
+div{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+form-group{
+    margin: auto;
+}
+
+input { 
+    max-width: 20rem;
+    margin-bottom: 2rem;
+}
+label{
+    text-decoration: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#uidnote {
+    margin: auto;
+    padding: 1rem;
+    max-width: 18rem;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: azure;
+    background-color: rgb(16, 158, 228);
+    margin-left: 1.3rem;
+}
+#pwdnote{
+    margin: auto;
+    padding: 1rem;
+    max-width: 18rem;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: azure;
+    background-color: rgb(16, 158, 228);
+    margin-left: 1.3rem;
+}
+
+.info{
+    color: black;
+}
+
+#confirmnote{
+    margin: auto;
+    padding: 1rem;
+    max-width: 18rem;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: azure;
+    background-color: rgb(16, 158, 228);
+    margin-left: 1.3rem;
+}
+
+button{
+    background-color: none;
+    border: 2rem black ;
+    margin: auto;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid{
+    color: red;
+}
+.hide{
+    color: none;
+}
