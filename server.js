@@ -104,7 +104,7 @@ app.post('/login', async (req, res) => {
 // Other server setup and routes...
 
 mongoose.set("strictQuery", false);
-mongoose.connect("mongodb+srv://mihretunode:Q@methane.0fjzoxr.mongodb.net/signIn?retryWrites=true&w=majority")
+mongoose.connect("")
 .then(() => {
  console.log('MongoDB connected...')
  
